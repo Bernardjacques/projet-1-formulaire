@@ -1,18 +1,18 @@
 /* #1596c5 (dark blue)
 #FFF (blanc)
 #303030 (gris-noir)
-*/ 
+*/
 
 *
 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0vh;
+    padding: 0vh;
     font-family: 'BellotaRegular';
 }
 
 img
 {
-    width: 400px;
+    width: 30vw;
     height: auto;
 }
 
@@ -20,55 +20,53 @@ img
 body
 {
 
-    background: lightgrey;
-    margin-left: 300px;
-    margin-right: 300px;
+    background: rgb(224, 224, 224);
+    margin-left: 35vh;
+    margin-right: 35vh;
+
 }
 
-.subbody
-{
-
-    border-radius: 25px;
-}
 
 header
 {
     background: lightblue;
-    border-radius: 25px;
-    height: 420px;
+    border-radius: 5vh;
+    height: 60vh;
     text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    padding-bottom: 1vh;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
 }
 .formulaire
 {
     background: lightblue;
-    border-radius: 25px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+    border-radius: 5vh;
+    margin-bottom: 6vh;
+    padding-bottom: 5vh;
+    font-size: 2.5vh;
 }
 
 header > p
 {
 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2.5vh;
 
 }
 
 h1
 {
-    font-size: 25px;
+    font-size: 4vh;
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 25px;
+    padding-bottom: 8vh;
+    padding-top: 6vh;
 }
 
 form
 {
-    margin-left: 30px;
-    line-height: 25px;
+    margin-left: 5vh;
+    line-height: 4vh;
 }
 
 input, select, textarea
@@ -78,53 +76,67 @@ input, select, textarea
 
 form p
 {
-    margin-left: 10px;
-    padding-bottom: 10px;
+    margin-left: 2vh;
+    padding-bottom: 2vh;
 }
 select
 {
-    line-height: 100px;
+    line-height: 20vh;
 }
 
 .categories
 {
-    padding-top: 10px;
+    padding-top: 1vh;
 }
 
 textarea
 {
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 400px;
-    height: 100px;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    margin-bottom: 3vh;
+    width: 30vw;
+    height: 20vh;
+    min-width: 15vw;
+    min-height: 10vh;
+    max-width: 50vw;
+    max-height: 35vh;
 }
 
 .categories > input
 {
-    margin-left: 30px;
+    margin-left: 4vh;
 }
 
 .name
 {
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
 }
 .msg
 {
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 2vh;
+    margin-left: 5vh;
 }
 .button
 {
-    margin-left: 30px;
+    margin-left: 5vh;
+    font-size: 2vh;
+    display: inline-block;
+}
+.aste
+{
+  padding-top: 2vh;
+  margin-left: 5vh;
+  color: #9a0000;
 }
 
 footer
 {
     background: lightblue;
-    border-radius: 25px;
-    margin-top: 20px;
-    padding-top: 20px;
+    border-radius: 5vh;
+    margin-top: 4vh;
+    padding-top: 4vh;
     text-align: center;
-    height: 50px;
+    height: 7vh;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
 }
