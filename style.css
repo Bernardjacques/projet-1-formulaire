@@ -1,0 +1,130 @@
+/* #1596c5 (dark blue)
+#FFF (blanc)
+#303030 (gris-noir)
+*/ 
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'BellotaRegular';
+}
+
+img
+{
+    width: 400px;
+    height: auto;
+}
+
+
+body
+{
+
+    background: lightgrey;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.subbody
+{
+
+    border-radius: 25px;
+}
+
+header
+{
+    background: lightblue;
+    border-radius: 25px;
+    height: 420px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.formulaire
+{
+    background: lightblue;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+header > p
+{
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+h1
+{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+form
+{
+    margin-left: 30px;
+    line-height: 25px;
+}
+
+input, select, textarea
+{
+    display: block;
+}
+
+form p
+{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+select
+{
+    line-height: 100px;
+}
+
+.categories
+{
+    padding-top: 10px;
+}
+
+textarea
+{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+.categories > input
+{
+    margin-left: 30px;
+}
+
+.name
+{
+    margin-bottom: 5px;
+}
+.msg
+{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.button
+{
+    margin-left: 30px;
+}
+
+footer
+{
+    background: lightblue;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    height: 50px;
+}
