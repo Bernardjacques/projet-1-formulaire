@@ -23,7 +23,6 @@ body
     background: rgb(224, 224, 224);
     margin-left: 35vh;
     margin-right: 35vh;
-
 }
 
 
@@ -44,6 +43,7 @@ header
     margin-bottom: 6vh;
     padding-bottom: 5vh;
     font-size: 2.5vh;
+    height: 80vh;
 }
 
 header > p
@@ -84,7 +84,16 @@ select
     line-height: 20vh;
     min-width: 12.5vw;
 }
-
+.floatleft
+{
+  float: left;
+  display: block;
+}
+.floatright
+{
+  float: right;
+  margin-right: 10vw;
+}
 .categories
 {
     padding-top: 1vh;

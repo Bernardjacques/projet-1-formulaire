@@ -14,19 +14,25 @@
         <p>Bienvenue sur le formulaire de contact de Hackers Poulettes©, votre
            fournisseur de kits et accessoires pour Rasperri Pi, les nano-ordinateurs
            à monter soi-même ! <br>
-          Contactez-nous pour un problème de matériel, une pièce manquante, de l'aide
-          dans votre montage ou tout autre sujet en rapport avec nous. Nous vous
-          répondrons dans les plus brefs délais !
+           Contactez-nous pour un problème de matériel, une pièce manquante, de l'aide
+           dans votre montage ou tout autre sujet en rapport avec nous.<br>
+           Nous vous répondrons dans les plus brefs délais !
         </p>
       </header>
       <section class="formulaire">
         <div>
             <h1>Formulaire de contact</h1>
             <form method="POST" action="blablabla.php">
-                Nom* :
-                <input class="name" type="text" name="nom" required>
+            <div class="floatleft">
+
+           Nom* :
+                <input class="name" type="text" name="nom" placeholder="Votre nom" required>
                 Prénom* :
-                <input class="name" type="text" name="prenom" required>
+                <input class="name" type="text" name="prenom" placeholder="Votre prénom" required>
+                Email* :
+                <input class="mail" type="email" name="email" placeholder="Votre e-mail" required>
+            </div>
+            <div class="floatright">
                 Genre* :
                 <select name="genre" required>
                   <option value="">- Sélectionnez -</option>
@@ -34,11 +40,10 @@
                   <option value="homme">Homme</option>
                   <option value="Autre">Autre</option>
                 </select>
-                Email* :
-                <input class="mail" type="email" name="email" required>
+
                 <div class="categories">
                     Pays* :
-                    <select name="pays" required>
+                  <select name="pays" required>
                             <option value="Belgique" selected="selected">Belgique </option>
 
                             <option value="Afghanistan">Afghanistan </option>
@@ -307,6 +312,11 @@
                   </select>
                 </div>
         </div>
+        </div>
+
+
+        </div>
+        <div class="floatleft">
                  <div class="msg">
                       Message* :
                  </div>
@@ -318,6 +328,7 @@
                 <div class="aste">
                   *Les champs marqués d'un astérisque sont obligatoires
                 </div>
+        </div>        
       </section>
 </body>
 
