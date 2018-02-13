@@ -31,7 +31,7 @@ header
 {
     background: lightblue;
     border-radius: 5vh;
-    height: 60vh;
+    height: 65vh;
     text-align: center;
     padding-bottom: 1vh;
     margin-bottom: 5vh;
@@ -82,6 +82,7 @@ form p
 select
 {
     line-height: 20vh;
+    min-width: 12.5vw;
 }
 
 .categories
@@ -121,6 +122,8 @@ textarea
     margin-left: 5vh;
     font-size: 2vh;
     display: inline-block;
+    min-width: 13.6vw;
+    text-align: center;
 }
 .aste
 {

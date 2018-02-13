@@ -9,17 +9,17 @@
     <title>Contacter Hackers Poulette</title>
 </head>
 <body>
-    <section class="subbody">
-    <header>
+      <header>
         <img src="hackers-poulette-logo2.png" alt="logo de Hackers Poulettes"/>
-        <p>
-            Ce site est en construction, et il est possible que vous
-            soyez confronté à un bug.
-            Si le problème persiste après un rechargement de la
-            page, merci de nous en faire part à l'aide du formulaire ci-dessous.
+        <p>Bienvenue sur le formulaire de contact de Hackers Poulettes©, votre
+           fournisseur de kits et accessoires pour Rasperri Pi, les nano-ordinateurs
+           à monter soi-même ! <br>
+          Contactez-nous pour un problème de matériel, une pièce manquante, de l'aide
+          dans votre montage ou tout autre sujet en rapport avec nous. Nous vous
+          répondrons dans les plus brefs délais !
         </p>
-    </header>
-    <section class="formulaire">
+      </header>
+      <section class="formulaire">
         <div>
             <h1>Formulaire de contact</h1>
             <form method="POST" action="blablabla.php">
@@ -29,6 +29,7 @@
                 <input class="name" type="text" name="prenom" required>
                 Genre* :
                 <select name="genre" required>
+                  <option value="">- Sélectionnez -</option>
                   <option value="femme">Femme</option>
                   <option value="homme">Homme</option>
                   <option value="Autre">Autre</option>
@@ -293,35 +294,31 @@
                             <option value="Zambie">Zambie </option>
                             <option value="Zimbabwe">Zimbabwe </option>
 
-                            </select>
-                            </div>
-                            <div class="categories">
-                                Sujet :
-                                <select name"sujet" required>
-                                    <option value="message1">Matériel Défectueux</option>
-                                    <option value="message2">Aide à l'Installation</option>
-                                    <option value="message3">Pièces manquantes </option>
-                                    <option value="other">Autre</option>
-                                </select>
-                            </div>
-                        </div>
-                       <div class="msg">
-                            Message* :
-                        </div>
-                    <textarea name="Message" placeholder="Tapez ici votre message" required></textarea>
-
-                    <input class="button" type="submit" value="Envoyer le formulaire">
-                    <input class="button" type="reset" /> 
-
+                    </select>
                 </div>
-            </div>
+                <div class="categories">
+                Sujet :
+                  <select name="sujet">
+                      <option value="">- Sélectionnez -</option>
+                      <option value="message1">Matériel Défectueux</option>
+                      <option value="message2">Aide au montage</option>
+                      <option value="message3">Pièce manquante</option>
+                      <option value="other">Autre</option>
+                  </select>
+                </div>
+        </div>
+                 <div class="msg">
+                      Message* :
+                 </div>
+                 <textarea name="Message" placeholder="Tapez ici votre message" required></textarea>
+
+                 <input class="button" type="submit" value="Envoyer le formulaire">
+                 <input class="button" type="reset" />
             </form>
-        </div>
-        <div class="aste">
-          *Les champs marqués d'un astérisque sont obligatoires
-        </div>
-    </section>
-    </section>
+                <div class="aste">
+                  *Les champs marqués d'un astérisque sont obligatoires
+                </div>
+      </section>
 </body>
 
 <footer>
