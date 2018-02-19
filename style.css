@@ -1,4 +1,5 @@
 /* #1596c5 (dark blue)
+#15c5bd
 #FFF (blanc)
 #303030 (gris-noir)
 */
@@ -7,43 +8,51 @@
 {
     margin: 0vh;
     padding: 0vh;
-    font-family: 'BellotaRegular';
+    font-family: 'BellotaRegular', 'Times New Roman', 'Arial';
+    color: #FFF;
 }
 
 img
 {
+    background: #FFF;
+    border: 0.2vw solid #303030;
+    border-radius: 15vw;
     width: 30vw;
     height: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 
 body
 {
 
-    background: rgb(224, 224, 224);
-    margin-left: 35vh;
-    margin-right: 35vh;
+    background: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
 }
 
 
 header
 {
-    background: lightblue;
+    background: #15c5bd;
     border-radius: 5vh;
     height: 65vh;
+    width: auto;
     text-align: center;
-    padding-bottom: 1vh;
+    padding-bottom: 3vh;
     margin-bottom: 5vh;
     margin-top: 1vh;
 }
 .formulaire
 {
-    background: lightblue;
+    background: #15c5bd;
     border-radius: 5vh;
     margin-bottom: 6vh;
     padding-bottom: 5vh;
     font-size: 2.5vh;
-    height: 83vh;
+    height: 90vh;
 }
 
 header > p
@@ -51,7 +60,7 @@ header > p
 
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: 2.5vh;
+    font-size: 16px;
 
 }
 
@@ -65,20 +74,16 @@ h1
 
 form
 {
-    margin-left: 11vh;
+    margin-left: 2.5vw;
     line-height: 4vh;
 }
 
 input, select, textarea
 {
     display: block;
+    color: black;
 }
 
-form p
-{
-    margin-left: 11vh;
-    padding-bottom: 2vh;
-}
 select
 {
     line-height: 20vh;
@@ -92,7 +97,7 @@ select
 .floatright
 {
   float: right;
-  margin-right: 9vw;
+  margin-right: 10vw;
 }
 .categories
 {
@@ -102,7 +107,7 @@ select
 textarea
 {
     margin-top: 2vh;
-    margin-left: 11vh;
+    margin-left: 5vh;
     margin-bottom: 3vh;
     width: 30vw;
     height: 20vh;
@@ -124,31 +129,35 @@ textarea
 .msg
 {
     margin-top: 2vh;
-    margin-left: 11vh;
+    margin-left: 5vh;
 }
 .button
 {
-    margin-left: 11vh;
+    margin-left: 5vh;
     font-size: 2vh;
     display: inline-block;
-    min-width: 12.2vw;
+    min-width: 13.6vw;
     text-align: center;
 }
 .aste
 {
   padding-top: 2vh;
-  margin-left: 11vh;
-  color: #9a0000;
+  margin-left: 5vh;
+  color: red;
+}
+
+.astespan
+{
+    color: red;
 }
 
 footer
 {
-    background: lightblue;
+    background: #15c5bd;
     border-radius: 5vh;
-    margin-top: 3vh;
-    padding-top: 3vh;
+    margin-top: 5vh;
+    padding-top: 3.5vh;
     text-align: center;
     height: 7vh;
     font-size: 2.5vh;
-    margin-bottom: 5vh;
 }
